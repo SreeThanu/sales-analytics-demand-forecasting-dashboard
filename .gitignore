@@ -1,0 +1,51 @@
+# Aider
+.aider*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Pipeline outputs
+outputs/forecasts/*.csv
+outputs/metrics/*.csv
+outputs/figures/*.png
+outputs/figures/*.jpg
+
+# Logs
+*.log
+
+# Secrets / credentials
+.env
+*.key
+credentials.json

@@ -1,0 +1,25 @@
+project:
+  name: "Sales Analytics & Demand Forecasting Dashboard"
+  version: "1.0.0"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  train_file: "train.csv"
+  test_file: "test.csv"
+  processed_file: "processed_sales_data.csv"
+
+outputs:
+  forecasts_dir: "outputs/forecasts"
+  metrics_dir: "outputs/metrics"
+  figures_dir: "outputs/figures"
+
+forecasting:
+  arima_order: [5, 1, 2]
+  forecast_horizon: 90
+  test_split_days: 90
+
+dashboard:
+  host: "127.0.0.1"
+  port: 8050
+  debug: true

@@ -33,14 +33,14 @@ Thumbs.db
 *.swo
 
 # Large data files
-data/raw/*.csv
-data/processed/*.csv
+**/data/raw/*.csv
+**/data/processed/*.csv
 
 # Pipeline outputs
-outputs/forecasts/*.csv
-outputs/metrics/*.csv
-outputs/figures/*.png
-outputs/figures/*.jpg
+**/outputs/forecasts/*.csv
+**/outputs/metrics/*.csv
+**/outputs/figures/*.png
+**/outputs/figures/*.jpg
 
 # Logs
 *.log
